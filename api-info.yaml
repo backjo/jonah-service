@@ -4,7 +4,7 @@ metadata:
   name: jonah-service
   description: Hello World example for gRPC
   annotations:
-    backstage.io/definition-at-location: "https://github.com/backjo/jonah-service/blob/master/src/main/resources/greeter.proto"
+    backstage.io/definition-at-location: "url:https://github.com/backjo/jonah-service/blob/master/src/main/resources/greeter.proto"
 spec:
   type: grpc
   lifecycle: deprecated
