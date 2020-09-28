@@ -6,6 +6,7 @@ metadata:
   annotations:
     github.com/project-slug: backjo/jonah-service
     backstage.io/techdocs-ref: github:https://github.com/backjo/jonah-service
+    backstage.io/kubernetes-id: jonah-service
 spec:
   type: service
   lifecycle: experimental
