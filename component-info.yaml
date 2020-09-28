@@ -11,3 +11,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: backjo
+  implementsApis:
+  - jonah-service
