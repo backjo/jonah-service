@@ -8,7 +8,7 @@ spec:
   lifecycle: deprecated
   owner: grpc@example.com
   implementsApis:
-    - jonah-service
+  - jonah-service
   definition: |
     syntax = "proto3";
 
