@@ -3,27 +3,11 @@ kind: API
 metadata:
   name: jonah-service
   description: Hello World example for gRPC
+  annotations:
+    backstage.io/definition-at-location: "https://github.com/backjo/jonah-service/blob/master/src/main/resources/greeter.proto"
 spec:
   type: grpc
   lifecycle: deprecated
   owner: grpc@example.com
   implementsApis:
   - jonah-service
-  definition: |
-    syntax = "proto3";
-
-    option java_package = "com.example.jonahservice.proto";
-
-    service Greeter {
-        rpc SayHello ( HelloRequest) returns (  HelloReply) {}
-    }
-
-    // The request message containing the user's name.
-    message HelloRequest {
-        string name = 1;
-    }
-
-    // The response message containing the greetings
-    message HelloReply {
-        string message = 1;
-    }
